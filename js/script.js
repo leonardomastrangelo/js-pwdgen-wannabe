@@ -15,6 +15,11 @@ const fixedNumber = 21
 // password generation
 document.getElementById("password").innerHTML = 
 `
-${nomeUtente}${cognomeUtente}${coloreUtente}${fixedNumber}
+<video src="img/Rick Astley - Never Gonna Give You Up (Official Music Video).mp4" controls width="700px">
+</video>
+
+<h3>Ecco la tua oscena password</h3>
+
+<h4>${nomeUtente}${cognomeUtente}${coloreUtente}${fixedNumber}</h4>
 `
 
